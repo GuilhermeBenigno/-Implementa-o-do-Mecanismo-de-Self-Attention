@@ -3,7 +3,7 @@
 
 Implementação do mecanismo de Scaled Dot-Product Attention conforme descrito no paper "Attention Is All You Need".
 
-## 📌 Como executar
+# Como executar:
 
 1. Clone o repositório:
    git clone <[link-do-repositorio](https://github.com/GuilhermeBenigno/-Implementa-o-do-Mecanismo-de-Self-Attention/tree/main)>
@@ -16,13 +16,13 @@ Implementação do mecanismo de Scaled Dot-Product Attention conforme descrito n
 
 ---
 
-## 📌 Fórmula Implementada
+# Fórmula Implementada:
 
 Attention(Q, K, V) = softmax( (QK^T) / sqrt(d_k) ) V
 
 ---
 
-## 📌 Normalização (Scaling Factor)
+# Normalização (Scaling Factor)
 
 Após o cálculo do produto escalar QK^T, os valores são divididos por:
 
@@ -35,7 +35,7 @@ Isso evita que valores muito grandes prejudiquem o Softmax.
 
 ---
 
-## 📌 Exemplo
+# Exemplo:
 
 Input:
 
@@ -43,4 +43,5 @@ Q = [[1, 0, 1]]
 
 Output esperado:
 Uma matriz contendo os pesos normalizados e a combinação ponderada de V.
+
 
