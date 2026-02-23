@@ -6,7 +6,7 @@ Implementação do mecanismo de Scaled Dot-Product Attention conforme descrito n
 ## 📌 Como executar
 
 1. Clone o repositório:
-   git clone <link-do-repositorio>
+   git clone <[link-do-repositorio](https://github.com/GuilhermeBenigno/-Implementa-o-do-Mecanismo-de-Self-Attention/tree/main)>
 
 2. Instale as dependências:
    pip install -r requirements.txt
@@ -43,3 +43,4 @@ Q = [[1, 0, 1]]
 
 Output esperado:
 Uma matriz contendo os pesos normalizados e a combinação ponderada de V.
+
